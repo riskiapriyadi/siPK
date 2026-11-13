@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+body { font-family: system-ui, sans-serif; margin: 0; color: #222; background: #f6f6f4; }
+main { max-width: 760px; margin: 0 auto; padding: 16px; }
+h1 { font-size: 22px; margin: 8px 0 16px; }
+.nav { background: #222; padding: 10px 16px; display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: center; }
+.nav a { color: #fff; text-decoration: none; font-size: 14px; }
+.nav form { margin: 0 0 0 auto; }
+.nav button { width: auto; margin: 0; padding: 4px 10px; font-size: 13px; background: #555; }
+.card { background: #fff; border-radius: 8px; padding: 16px; margin-bottom: 16px; border: 1px solid #e3e3e0; }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 12px; margin-bottom: 16px; }
+.stats .card { margin: 0; }
+.stats b { display: block; font-size: 24px; }
+.stats span { font-size: 13px; color: #666; }
+label { display: block; font-size: 14px; margin: 12px 0 4px; color: #555; }
+input, button { width: 100%; padding: 10px; font-size: 16px; }
+button { margin-top: 14px; background: #222; color: #fff; border: 0; border-radius: 6px; cursor: pointer; }
+button.hapus { background: #a32d2d; margin: 0; padding: 4px 10px; font-size: 13px; width: auto; }
+.ok { background: #eaf3de; color: #27500a; padding: 10px; border-radius: 6px; margin-bottom: 12px; }
+.error { background: #fdecea; color: #a32d2d; padding: 10px; border-radius: 6px; margin-bottom: 12px; }
+.warn { background: #faeeda; color: #633806; padding: 10px; border-radius: 6px; margin-bottom: 12px; }
+.tabel { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; font-size: 14px; }
+th, td { text-align: left; padding: 8px 6px; border-bottom: 1px solid #e3e3e0; white-space: nowrap; }
+td form { margin: 0; display: inline; }
+.catatan { font-size: 13px; color: #666; }
+.login { max-width: 360px; margin: 48px auto; padding: 0 16px; }
